@@ -4,7 +4,7 @@ name: Hosting Static Website
 -	name: 'Start build job'         run: | 
           echo "Starting the build job" 
  
--	name: 'Checkout' 
+-	name: 'Checkout'  
         uses: actions/checkout@v2 
  
 -	name: 'Setup nodejs'         uses: actions/setup-node@v2         with: 
